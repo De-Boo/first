@@ -136,10 +136,10 @@ LIMIT 15;
 
 -  Skills with highest pay: the top 10 skills sala ranges from $15200 - $18250.
 
-![Top paying salary](project_sql\picture\skills_with_highest_salary.png)
+![Top paying salary](project_sql/picture/skills_with_highest_salary.png)
 - Highest payments offered by employers to a given skill.
 
-![payment offered](project_sql\picture\payment_offer_by_employers.png)
+![payment offered](project_sql/picture/payment_offer_by_employers.png)
 
 
 # Job Skills Overview
