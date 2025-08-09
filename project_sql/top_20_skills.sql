@@ -1,4 +1,4 @@
--- skills for 20 top paying jobs for data analysis
+-- skills for 20 skills to learn
 WITH top_20_paying_jobs AS (
   SELECT job_id,
     company_dim.company_id,

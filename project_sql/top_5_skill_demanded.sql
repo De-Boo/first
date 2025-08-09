@@ -9,4 +9,4 @@ WHERE job_postings_fact.job_title_short LIKE '%Data%'
   OR job_postings_fact.job_title_short LIKE '%Analyst%'
 GROUP BY skills
 ORDER BY top_demand_skill DESC
-LIMIT 20;
+LIMIT 5;

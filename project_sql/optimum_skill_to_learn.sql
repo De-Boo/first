@@ -1,3 +1,4 @@
+-- what are the must optimum skills to learn for data driven roles
 SELECT COUNT (job_postings_fact.job_id) AS job_id_count,
   skills_job_dim.skill_id,
   skills_dim.skills,
@@ -13,4 +14,4 @@ GROUP BY skills_job_dim.skill_id,
   skills_dim.skills
 ORDER BY job_id_count DESC,
   job_demand_pament DESC
-LIMIT 20
+LIMIT 15;
